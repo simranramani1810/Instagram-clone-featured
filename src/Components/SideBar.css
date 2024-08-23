@@ -1,0 +1,27 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    max-width: 250px;
+    border-right: 1px solid #dbdbdb;
+    background-color: #fff;
+  }
+  
+  .sidebarOption {
+    margin-bottom: 20px;
+  }
+  
+  .sidebarOption .MuiSvgIcon-root {
+    font-size: 28px;
+    color: #262626;
+  }
+  
+  .sidebarOption .MuiListItemText-root {
+    font-size: 16px;
+  }
+
+  .SideBar_App{
+    display: flex;
+  }

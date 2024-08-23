@@ -1,0 +1,27 @@
+.form-container{
+    max-width: 600px;
+    border: px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    /* box-shadow: 1px 1px 5px black; */
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    background-color: #fff;
+}
+
+button[type='submit']
+{
+    background-color: rgb(60, 60, 202);
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

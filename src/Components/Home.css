@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .img-header{
+    width: 40px;
+    cursor: pointer;
+  }
+  .header__logo {
+    height: 40px;
+  }
+  
+  .header__search {
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .header__search input {
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+  }
+  
+  .header__icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+  }
+  
+  .header__icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    flex: 0.3;
+    padding: 20px;
+    border-left: 1px solid lightgray;
+  }
+  
+  .sidebar__userInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .sidebar__info h4 {
+    margin: 0;
+  }
+  
+  .sidebar__suggestions {
+    margin-top: 20px;
+  }
+  
+  .app {
+    background-color: #fafafa;
+    min-height: 100vh;
+  }
+  
+  .app__body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .add_icon {
+    border: 2px solid black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
